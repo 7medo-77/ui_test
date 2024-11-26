@@ -1,0 +1,13 @@
+/* Import PrimeReact core styles */
+@import 'primereact/resources/primereact.min.css';
+
+/* Import theme styles (you can choose a different theme) */
+@import 'primereact/resources/themes/lara-light-indigo/theme.css';
+
+/* Import PrimeIcons */
+@import 'primeicons/primeicons.css';
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
