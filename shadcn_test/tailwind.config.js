@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-
-const config = {
-    darkMode: ['class'],
-    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], // Add your file paths here
+module.exports = {
+    darkMode: ["class"],
+    content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
   	extend: {
   		borderRadius: {
@@ -56,5 +58,3 @@ const config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
-
-export default config
